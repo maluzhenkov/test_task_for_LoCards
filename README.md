@@ -1,4 +1,4 @@
-# list_of_post
+# list_of_books
 
 ## Project setup
 ```

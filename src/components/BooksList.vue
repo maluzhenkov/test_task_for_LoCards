@@ -19,7 +19,7 @@
             <v-card>
               <v-card-actions>
                 <v-btn text @click="deleteMenu = false">Отмена</v-btn>
-                <v-btn text color="error" @click="deletePost(item.ID)">Удалить</v-btn>
+                <v-btn text color="error" @click="deleteBook(item.ID)">Удалить</v-btn>
               </v-card-actions>
             </v-card>
           </v-menu>
@@ -51,7 +51,7 @@ export default {
     showDetail(id) {
       this.$router.push({ name: "BookDetail", params: { id } });
     },
-    deletePost(id) {
+    deleteBook(id) {
       this.deleteMenu = false;
       this.$emit("remove", id);
     }

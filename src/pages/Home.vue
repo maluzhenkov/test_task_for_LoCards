@@ -26,10 +26,10 @@ export default {
     }
   },
   created() {
-    this.getPosts();
+    this.getBooks();
   },
   methods: {
-    getPosts() {
+    getBooks() {
       this.loading = true;
       this.$store
         .dispatch("fetchBooksList")

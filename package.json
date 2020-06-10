@@ -2,7 +2,7 @@
   "name": "list_of_post",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://maluzhenkov.github.io/test_task_for_LoCards",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
